@@ -6,4 +6,9 @@
 
 :root {
   background: url(./images/background.jpg);
+  --accent-yellow: #FFFF82;
+  --accent-beige: #F5F7DC;
+  --accent-green: #B5D99C;
+  --color-dark: #202C39;
+  --color-dark-2: #283845;
 }
