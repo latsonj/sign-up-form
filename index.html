@@ -7,9 +7,9 @@
   <title>Sign-up Form</title>
 </head>
 <body>
-  <div class="full-container">
-    <div class="right">
-      <svg style="height: 45px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 208 220" enable-background="new 0 0 208 176"
+  <div class="full-container container">
+    <div class="right container">
+      <svg class="logo" style="height: 45px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 208 220" enable-background="new 0 0 208 176"
       xml:space="preserve"><g><path d="M56.8564453,55.0366211c0,2.4101563,1.9511719,4.3642578,4.3647461,4.3642578
         c2.4130859,0,4.3642578-1.9541016,4.3642578-4.3642578c0-2.4135742-1.9511719-4.3676758-4.3642578-4.3676758
         C58.8076172,50.6689453,56.8564453,52.6230469,56.8564453,55.0366211z"/><path d="M73.512207,78.7553711c-1.0668945,0.6079102-2.2338867,0.9179688-3.4711914,0.9179688
@@ -45,33 +45,42 @@
         <path d="M91.46875,113.7382813l-3.5351563,1.3251953v30.0341797h-9.0751953v10.8935547h19.9682617v-34.0625
         c7.8540039-6.2451172,8.300293-20.6826172,8.300293-23.8398438L96.234375,98.0791016   C96.2128906,104.6357422,94.1704102,112.7255859,91.46875,113.7382813z"/></g>
       </svg>
-      <h1>TrunkTeach</h1>
+      <h1 class="header text">TrunkTeach</h1>
     </div>
-    <div class="left">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid mollitia accusantium error aspernatur blanditiis quisquam eligendi suscipit modi asperiores.</p>
-      <p>Lorem ipsum dolor sit amet.</p>
-      <form action="#" method="get">
-        <label for="first-name">First name:</label>
-        <input type="text" id="first-name" name="">
-  
-        <label for="last-name">Last name:</label>
-        <input type="text" id="last-name" name="">
-  
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="">
-  
-        <label for="phone-number">Phone number:</label>
-        <input type="tel" id="phone-number" name="">
-  
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="">
-  
-        <label for="confirm-password">Confirm password:</label>
-        <input type="password" id="confirm-password" name="">
-      </form>
+    <div class="left container">
+      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid mollitia accusantium error aspernatur blanditiis quisquam eligendi suscipit modi asperiores.</p>
+      <p class="text">Lorem ipsum dolor sit amet.</p>
+      <div class="form-container container">
+        <form action="#" method="get">
+          <div class="names container">
+            <label class="text" for="first-name">First name:</label>
+            <input type="text" id="first-name" name="first-name">
+            <label class="text" for="last-name">Last name:</label>
+            <input type="text" id="last-name" name="last-name">
+          </div>
+
+          <div class="contact-info container">
+            <label class="text" for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label class="text" for="phone-number">Phone number:</label>
+            <input type="tel" id="phone-number" name="phone-number">
+          </div>
+
+          <div class="password-info container">
+            <label class="text" for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <label class="text" for="confirm-password">Confirm password:</label>
+            <input type="password" id="confirm-password" name="confirmation">
+          </div>
+
+        </form>
+      </div>
+      <button type="submit"><span class="text">Create account</span></button>
+      <p class="text">Already have an account?<a href="#" class="log-in">Log in</a></p>
     </div>
   </div>
-  <footer>
+
+  <footer class="container">
     Photo by<span>&nbsp;</span><a href="https://unsplash.com/@punttim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Gouw</a><span>&nbsp;</span> on 
     <span>&nbsp;</span><a href="https://unsplash.com/photos/KigTvXqetXA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a><span>,&nbsp;</span>
     Elephant by sachin modgekar from <span>&nbsp;</span><a href="https://thenounproject.com/browse/icons/term/elephant/" target="_blank" title="Elephant Icons">Noun Project</a>
