@@ -161,6 +161,7 @@ button {
 
 .right > .text {
   font-weight: var(--weight-medium);
+  line-height: 1.2em;
 }
 
 .info {
