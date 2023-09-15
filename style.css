@@ -61,6 +61,8 @@
   --weight-light: 300;
   --weight-medium: 500;
   --weight-bold: 700;
+
+  --margin-under: 2em;
 }
 
 .full-container {
@@ -75,22 +77,25 @@
   margin-left: 20%;
   background-color: var(--color-green);
   color: var(--color-black);
-  float: left;
   height: 95vh;
-  padding: 3em;
+  padding: 3rem;
 }
 
 h1 {
   color: var(--color-beige);
 }
 
-p {
-  margin-bottom: 2em;
+p,
+button {
+  margin-bottom: var(--margin-under);
 }
 
-form {
+.form-container {
   background-color: var(--color-beige);
-  padding: 0%;
+  margin: 0 -3rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--margin-under);
 }
 
 footer {
@@ -104,5 +109,5 @@ footer {
 }
 
 a {
-  color:var(--color-green);
+  color:var(--color-yellow);
 }
