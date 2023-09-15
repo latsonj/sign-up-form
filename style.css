@@ -107,7 +107,7 @@ input, textarea, button, select {
   padding: 2em 0;
 }
 
-.left {
+.right {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,7 +159,7 @@ button {
   margin-bottom: calc(var(--margin-under) * -1);
 }
 
-.left > .text {
+.right > .text {
   font-weight: var(--weight-medium);
 }
 
