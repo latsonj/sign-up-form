@@ -185,6 +185,18 @@ button {
   column-gap: calc(var(--padding-default) * 2);
 }
 
+.info {
+  position: relative;
+}
+
+.required-icon::after {
+  content: "*";
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  color: red;
+}
+
 footer {
   background-color: var(--color-black);
   height: 5vh;
