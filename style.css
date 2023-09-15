@@ -135,7 +135,7 @@ button {
 }
 
 .form-container input {
-  width: 170px;
+  width: 20ch;
   margin-bottom: calc(var(--margin-under) * 0.5);
   padding: 2px 5px;
   font-weight: var(--weight-regular);
