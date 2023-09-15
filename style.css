@@ -63,6 +63,7 @@
   --weight-bold: 700;
 
   --margin-under: 2em;
+  --padding-default: 3.5rem;
 }
 
 .full-container {
@@ -78,7 +79,7 @@
   background-color: var(--color-green);
   color: var(--color-black);
   height: 95vh;
-  padding: 3rem;
+  padding: var(--padding-default);
 }
 
 h1 {
@@ -92,7 +93,8 @@ button {
 
 .form-container {
   background-color: var(--color-beige);
-  margin: 0 -3rem;
+  margin: 0 calc(var(--padding-default) * -1);
+  padding: var(--padding-default);
   display: flex;
   flex-direction: column;
   margin-bottom: var(--margin-under);
