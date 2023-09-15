@@ -82,6 +82,10 @@
   padding: var(--padding-default);
 }
 
+.left p:first-child {
+  margin-top: calc(var(--margin-under) * 0.75);
+}
+
 h1 {
   color: var(--color-beige);
 }
@@ -98,6 +102,32 @@ button {
   display: flex;
   flex-direction: column;
   margin-bottom: var(--margin-under);
+  box-shadow: 2px 2px 7px silver,
+              2px -1px 1px gainsboro;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.form-container input {
+  width: 170px;
+  margin-bottom: var(--margin-under);
+}
+
+.form-container .password-info {
+  margin-bottom: calc(var(--margin-under) * -1);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.names-info,
+.contact-info,
+.password-info {
+  display: flex;
+  column-gap: calc(var(--padding-default) * 2);
 }
 
 footer {
