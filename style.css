@@ -175,7 +175,7 @@ button {
   border: 1px solid var(--color-gunmetal);
   background-color: var(--color-black);
   color: var(--color-beige);
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .names-info,
@@ -226,16 +226,19 @@ a:hover {
 button:hover {
   color: var(--color-black);
   background-color: var(--color-beige);
+  transform: translateY(-2px);
 }
 
 .form-container input:focus {
   border: 1px solid blue;
   outline: 1px solid blue;
+  box-shadow: 1px 2px 2px lightskyblue;
 }
 
 button:active {
-  color: var(--color-green);
+  color: var(--color-beige);
   background-color: var(--color-black);
+  transform: translateY(1px);
 }
 
 .log-in:active,
