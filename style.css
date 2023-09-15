@@ -175,6 +175,7 @@ button {
   border: 1px solid var(--color-gunmetal);
   background-color: var(--color-black);
   color: var(--color-beige);
+  transition: 0.3s;
 }
 
 .names-info,
@@ -204,4 +205,27 @@ a {
 
 .log-in:hover {
   color: var(--color-yellow);
+}
+
+a:hover {
+  color: var(--color-beige);
+}
+
+button:hover {
+  color: var(--color-black);
+  background-color: var(--color-beige);
+}
+
+.form-container input:focus {
+  outline: 2px solid var(--color-black);
+}
+
+button:active {
+  color: var(--color-green);
+  background-color: var(--color-black);
+}
+
+.log-in:active,
+a:active {
+  color: var(--color-beige);
 }
