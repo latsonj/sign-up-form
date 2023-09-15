@@ -101,7 +101,7 @@ input, textarea, button, select {
   position: absolute;
   top: 25%;
   background-color: rgba(242, 254, 238, 0.6);
-  width: 25vw;
+  width: 30vw;
   justify-content: center;
   align-items: center;
   padding: 2em 0;
@@ -111,8 +111,8 @@ input, textarea, button, select {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 25vw;
-  width: 75vw;
+  margin-left: 30vw;
+  width: 70vw;
   background-color: var(--color-green);
   color: var(--color-black);
   height: 95vh;
@@ -139,7 +139,7 @@ button {
   display: flex;
   flex-direction: column;
   margin-bottom: var(--margin-under);
-  box-shadow: 2px 2px 7px silver,
+  box-shadow: 2px 2px 7px var(--color-gunmetal),
               2px -1px 1px gainsboro;
   font-size: 13px;
   font-weight: var(--weight-light);
