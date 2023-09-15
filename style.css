@@ -62,7 +62,7 @@
   --weight-medium: 500;
   --weight-bold: 700;
 
-  --margin-under: 2em;
+  --margin-under: 1.6em;
   --padding-default: 3.5rem;
 }
 
@@ -71,8 +71,9 @@
 }
 
 .flavor {
-  font-weight: 500;
+  font-weight: var(--weight-bold);
   font-size: 24px;
+  margin-bottom: 0.5em;
 }
 
 .right {
@@ -80,6 +81,9 @@
 }
 
 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 20%;
   background-color: var(--color-green);
   color: var(--color-black);
@@ -87,12 +91,12 @@
   padding: var(--padding-default);
 }
 
-.left p:first-child {
+.form-container p:first-child {
   margin-top: var(--margin-under);
 }
 
 h1 {
-  color: var(--color-beige);
+  color: var(--color-green);
 }
 
 p,
@@ -110,22 +114,39 @@ button {
   box-shadow: 2px 2px 7px silver,
               2px -1px 1px gainsboro;
   font-size: 13px;
-  font-weight: 300;
+  font-weight: var(--weight-light);
   line-height: 1.5rem;
 }
 
 .form-container input {
   width: 170px;
-  margin-bottom: var(--margin-under);
+  margin-bottom: calc(var(--margin-under) * 0.5);
+  padding: 2px 2px;
+  font-weight: var(--weight-regular);
+  border-radius: 5px;
+  border: 1px solid var(--color-gunmetal);
 }
 
 .form-container .password-info {
   margin-bottom: calc(var(--margin-under) * -1);
 }
 
+.left > .text {
+  font-weight: var(--weight-medium);
+}
+
 .info {
   display: flex;
   flex-direction: column;
+}
+
+button {
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid var(--color-gunmetal);
+  background-color: var(--color-black);
+  color: var(--color-beige);
 }
 
 .names-info,
@@ -147,4 +168,12 @@ footer {
 
 a {
   color:var(--color-yellow);
+}
+
+.log-in {
+  color: var(--color-gunmetal);
+}
+
+.log-in:hover {
+  color: var(--color-yellow);
 }
