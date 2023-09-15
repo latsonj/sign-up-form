@@ -155,6 +155,10 @@ button {
   border: 1px solid var(--color-gunmetal);
 }
 
+.form-container input.error {
+  border: 1px solid red;
+}
+
 .form-container .password-info {
   margin-bottom: calc(var(--margin-under) * -1);
 }
@@ -205,7 +209,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color-beige)
+  color: var(--color-beige);
 }
 
 a {
@@ -234,6 +238,12 @@ button:hover {
   border: 1px solid blue;
   outline: 1px solid blue;
   box-shadow: 1px 2px 2px lightskyblue;
+}
+
+.form-container input.error:focus {
+  border: 1px solid red;
+  outline: 1px solid red;
+  box-shadow: 1px 2px 2px silver;
 }
 
 button:active {
