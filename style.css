@@ -70,6 +70,11 @@
   display: flex;
 }
 
+.flavor {
+  font-weight: 500;
+  font-size: 24px;
+}
+
 .right {
   display: flex;
 }
@@ -83,7 +88,7 @@
 }
 
 .left p:first-child {
-  margin-top: calc(var(--margin-under) * 0.75);
+  margin-top: var(--margin-under);
 }
 
 h1 {
@@ -98,7 +103,7 @@ button {
 .form-container {
   background-color: var(--color-beige);
   margin: 0 calc(var(--padding-default) * -1);
-  padding: var(--padding-default);
+  padding: 0  var(--padding-default) var(--padding-default);
   display: flex;
   flex-direction: column;
   margin-bottom: var(--margin-under);
