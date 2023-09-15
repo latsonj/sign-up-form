@@ -1,7 +1,7 @@
 # Sign-up Form
 
 This project was created for learning how to build and style **Forms** from [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form). 
-It displays a fake business that implements a form purely with HTML and CSS.
+It displays a fake business that implements a form mainly with HTML and CSS.
 
 The **live demo** can be found [here](https://latsonj.github.io/sign-up-form/).
 
