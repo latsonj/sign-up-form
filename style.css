@@ -217,7 +217,8 @@ button:hover {
 }
 
 .form-container input:focus {
-  outline: 2px solid var(--color-black);
+  border: 1px solid blue;
+  outline: 1px solid blue;
 }
 
 button:active {
