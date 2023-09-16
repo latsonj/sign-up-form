@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="./images/elephant.svg">
+  <script src="./main.js" defer></script>
   <title>Sign-up Form</title>
 </head>
 <body>
@@ -87,12 +88,13 @@
           <div class="password-info container">
             <div class="info">
               <label class="text" for="password">Password</label>
-              <input type="password" id="password" name="password" class="error" required>
+              <input type="password" id="password" name="password" required>
               <span class="required-icon"></span>
+              <span class="match-text">Passwords do not match</span>
             </div>
             <div class="info">
               <label class="text" for="confirm-password">Confirm password</label>
-              <input type="password" id="confirm-password" name="confirmation" class="error" required>
+              <input type="password" id="confirm-password" name="confirmation" required>
               <span class="required-icon"></span>
             </div>
           </div>

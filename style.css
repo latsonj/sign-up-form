@@ -216,6 +216,12 @@ a {
   color:var(--color-yellow);
 }
 
+.match-text {
+  color: red;
+  font-size: 0.75em;
+  visibility: hidden;
+}
+
 .log-in {
   color: var(--color-gunmetal);
 }
