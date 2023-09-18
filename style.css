@@ -243,7 +243,7 @@ button:hover {
 .form-container input:focus {
   border: 1px solid blue;
   outline: 1px solid blue;
-  box-shadow: 1px 2px 2px lightskyblue;
+  box-shadow: 1px 2px 2px silver;
 }
 
 .form-container input.error:focus {
