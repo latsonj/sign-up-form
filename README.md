@@ -12,6 +12,14 @@ The **live demo** can be found [here](https://latsonj.github.io/sign-up-form/).
  - **Styling forms**
  - Simple frontend **validation** using **Javascript** 
 
+## Attributions
+
+This project was created with fonts and images from: 
+
+- [Google Fonts (Poppins)](https://fonts.google.com/)
+- [Photo by Tim Gouw on Unsplash](https://unsplash.com/photos/KigTvXqetXA)
+- [Elephant by sachin modgekar from Noun Project (CC by 3.0)](https://thenounproject.com/browse/icons/term/elephant/)
+
 ## Author
 
 Created by [latsonj](https://github.com/latsonj)
